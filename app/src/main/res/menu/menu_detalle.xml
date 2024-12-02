@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Icono para regresar -->
+    <item
+        android:id="@+id/action_return"
+        android:icon="@drawable/ic_return"
+        android:title="Tomar Foto"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <!-- Icono para capturar fugitivo -->
+    <item
+        android:id="@+id/action_capture"
+        android:icon="@drawable/ic_add"
+        android:title="Capturar"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <!-- Icono para tomar foto -->
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@drawable/ic_photo"
+        android:title="Tomar Foto"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+
+
+    <!-- Icono para eliminar fugitivo -->
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="Eliminar"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <!-- Icono para mostrar en mapa -->
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/ic_map"
+        android:title="Mostrar en Mapa"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>

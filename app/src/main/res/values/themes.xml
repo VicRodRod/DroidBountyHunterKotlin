@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DroidBountyHunter" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.DroidBountyHunter" parent="Base.Theme.DroidBountyHunter" />
+
+
+    <style name="Theme.DroidBountyHunter.ActionBar">
+        <item name="windowActionBar">true</item>
+    </style>
+    <style name="Theme.DroidBountyHunter.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.DroidBountyHunter.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Common.CircularProgressTheme" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+</resources>
